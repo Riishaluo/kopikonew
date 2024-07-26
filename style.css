@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.kopiko{
+    font-family: 'Courier New', Courier, monospace;
+    color: #b7b7b7;
+    letter-spacing: 3px;
+}
+
+.kopiko:hover{
+    color: 
+    RGB(219, 79, 61);
+}
+.subtext{
+    color: #b7b7b7;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+}
+/* .nav-link:hover{
+    
+} */
+ 
+    
+
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+ margin: 150px auto;
+ width: 70%;
+
+}   
+
+.imgleft{
+
+    max-width: 320px;
+    float: left;
+    margin-right: 150px;
+
+}
+
+.wrapper p {
+    font-size: 18px;
+    color: #b7b7b7;
+    padding-top: 50px;
+}
+
+.p2{
+    float: left;
+    margin-right: 150px;
+}
+.img2{
+    width: 300px;
+}
+.imgleft{
+    width:300px;
+}
+@media screen and (max-width:500px) {
+   .secdiv .img2{
+    width: 100%;
+   }
+   .imgleft{
+    width: 100%;
+   }
+}
+
+
+
